@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>English AI by Hero Ritik</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="container">
+  <h1>🗣️ English AI</h1>
+  <p class="brand">by <b>Hero Ritik</b> | IG: @hacker_attitude42</p>
+
+  <select id="mode">
+    <option value="chat">English Conversation</option>
+    <option value="translate">Hindi ➜ English</option>
+    <option value="gd">GD / Debate</option>
+    <option value="ielts">IELTS / Interview</option>
+  </select>
+
+  <textarea id="userInput" placeholder="Type or speak here..."></textarea>
+
+  <div class="btns">
+    <button onclick="startVoice()">🎤 Speak</button>
+    <button onclick="sendMessage()">Send</button>
+    <button onclick="dailyTask()">📘 Daily Task</button>
+    <button onclick="pronunciationTest()">🎯 Pronunciation</button>
+    <button onclick="offlineMode()">📴 Offline</button>
+  </div>
+
+  <div id="progress"></div>
+  <div id="response"></div>
+  <div id="pronunciationResult"></div>
+</div>
+
+<footer>🚀 English AI by Hero Ritik</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

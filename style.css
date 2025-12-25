@@ -1,0 +1,68 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #fff;
+}
+
+.container {
+  max-width: 520px;
+  margin: 20px auto;
+  padding: 15px;
+  background: #020617;
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  color: #38bdf8;
+  margin-bottom: 4px;
+}
+
+.brand {
+  text-align: center;
+  color: #22d3ee;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+textarea { min-height: 90px; }
+
+.btns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#response, #pronunciationResult, #progress {
+  margin-top: 12px;
+  padding: 10px;
+  background: #020617;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  margin: 12px 0;
+  color: #94a3b8;
+  font-size: 13px;
+}
